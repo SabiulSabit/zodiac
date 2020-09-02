@@ -5,185 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    .roundOne {
-      position: relative;
-      width: 600px;
-      height: 600px;
-      border-radius: 50%;
-      background-color: #fff;
-      border: 2px solid #292929;
-    }
+  <link rel="stylesheet" href="style.css">
 
-    .roundTwo {
-      position: absolute;
-      margin-left: 50%;
-      margin-top: 50%;
-      transform: translate(-50%, -50%);
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background-color: rgb(0, 47, 255);
-      z-index: 99999;
-    }
-
-    .roundThree {
-      position: absolute;
-      margin-left: 50%;
-      margin-top: 50%;
-      transform: translate(-50%, -50%);
-      width: 450px;
-      height: 450px;
-      border-radius: 50%;
-      background-color: #fff;
-      border: 2px solid #292929;
-    }
-
-    .roundTwo img {
-      width: 50px;
-      height: 50px;
-    }
-
-    .symbolImg {
-      float: left;
-    }
-
-    .symbolText {
-      float: left;
-      padding-left: 50px;
-    }
-
-    .lineOne {
-     z-index: -9999999;
-      position: absolute;
-      margin-left: 50%;
-      margin-top: 50%;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(180deg);
-    }
-
-    .lineTwo {
-      position: absolute;
-      margin-left: 35px;
-      margin-top: -16px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(154deg);
-    }
-
-    .lineThree {
-      position: absolute;
-      margin-left: -14px;
-      margin-top: -72px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(125deg);
-    }
-
-    .lineFour {
-      position: absolute;
-      margin-left: -100px;
-      margin-top: -100px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(90deg);
-    }
-
-    .lineFive {
-      position: absolute;
-      margin-left: -184px;
-      margin-top: -75px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(55deg);
-    }
-
-    .lineSix {
-      position: absolute;
-      margin-left: -233px;
-      margin-top: -18px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(26deg);
-    }
-
-    .lineSeven {
-      position: absolute;
-      margin-left: -250px;
-      margin-top: 50px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(0deg);
-    }
-
-    .lineEight {
-      position: absolute;
-      margin-left: -229px;
-      margin-top: 127px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(-31deg);
-    }
-
-    .lineNine {
-      position: absolute;
-      margin-left: -175px;
-      margin-top: 179px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(-60deg);
-    }
-
-    .lineTen {
-      position: absolute;
-      margin-left: -100px;
-      margin-top: 199px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(270deg);
-    }
-
-    .lineEleven {
-      position: absolute;
-      margin-left: -34px;
-      margin-top: 184px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(244deg);
-    }
-
-    .lineTwelve {
-      position: absolute;
-      margin-left: 29px;
-      margin-top: 125px;
-      width: 300px;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
-      transform: rotate(211deg);
-    }
-
-    .lineThree .symbolText,
-    .lineTwo .symbolText,
-    .lineOne .symbolText,
-    .lineFour .symbolText,
-    .lineTwelve .symbolText,
-    .lineEleven .symbolText{
-      transform: rotate(180deg);
-      margin-left: 50px;
-    }
-  </style>
 </head>
 
 <body>
@@ -192,7 +15,7 @@
       <div class="roundThree">
         <div class="roundTwo">
           <div class="lineOne">
-            <div class="symbolImg">
+            <div class="symbolImg libra">
               <img src="/images/libra.png" alt="">
             </div>
             <div class="symbolText">
@@ -201,7 +24,7 @@
           </div>
           <div class="lineTwo">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/scorpio.png" alt="">
             </div>
             <div class="symbolText">
               <p>Scorpio</p>
@@ -209,7 +32,7 @@
           </div>
           <div class="lineThree">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/sagittarius.png" alt="">
             </div>
             <div class="symbolText">
               <p>Sagittarius</p>
@@ -217,7 +40,7 @@
           </div>
           <div class="lineFour">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/capricorn.png" alt="">
             </div>
             <div class="symbolText">
               <p>Capricorn</p>
@@ -225,7 +48,7 @@
           </div>
           <div class="lineFive">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/aquarius.png" alt="">
             </div>
             <div class="symbolText">
               <p>Aquarius</p>
@@ -233,7 +56,7 @@
           </div>
           <div class="lineSix">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/pisces.png" alt="">
             </div>
             <div class="symbolText">
               <p>Pisces</p>
@@ -241,7 +64,7 @@
           </div>
           <div class="lineSeven">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/aries.png" alt="">
             </div>
             <div class="symbolText">
               <p>Aries</p>
@@ -249,7 +72,7 @@
           </div>
           <div class="lineEight">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/taurus.png" alt="">
             </div>
             <div class="symbolText">
               <p>Taurus</p>
@@ -257,7 +80,7 @@
           </div>
           <div class="lineNine">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/gemini.png" alt="">
             </div>
             <div class="symbolText">
               <p>Gemini</p>
@@ -265,7 +88,7 @@
           </div>
           <div class="lineTen">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/cancer.png" alt="">
             </div>
             <div class="symbolText">
               <p>Cancer</p>
@@ -273,7 +96,7 @@
           </div>
           <div class="lineEleven">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/leo.png" alt="">
             </div>
             <div class="symbolText">
               <p>Leo</p>
@@ -281,7 +104,7 @@
           </div>
           <div class="lineTwelve">
             <div class="symbolImg">
-              <img src="/images/one.png" alt="">
+              <img src="/images/virgo.png" alt="">
             </div>
             <div class="symbolText">
               <p>Virgo</p>
