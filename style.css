@@ -175,3 +175,76 @@
     transform: rotate(180deg);
     margin-left: 50px;
   }
+
+  /* Image Rotate */
+
+  #libra{
+    transform: rotate(175deg);
+    padding-bottom: 35px;
+    padding-right: 15px;
+  }
+
+  #scorpio{
+    transform: rotate(-10deg);
+    padding-left: 10px;
+    padding-top: 40px;
+  }
+
+  #sagittarius{
+    transform: rotate(250deg);
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+
+  #capricorn{
+    transform: rotate(255deg);
+    padding-right: 60px;
+    padding-bottom: 30px;
+  }
+  
+  #aquarius{
+    transform: rotate(-55deg);
+    padding-right: 80px;
+  }
+
+  #pisces{
+    transform: rotate(-125deg);
+    padding-right: 40px;
+    padding-bottom: 25px;
+  }
+
+  #aries{
+    transform: rotate(-110deg);
+     padding-right: 50px;
+     padding-bottom: 25px;
+  }
+
+  #taurus{
+    transform: rotate(-105deg);
+    padding-bottom: 15px;
+    padding-right: 50px;
+  }
+
+  #gemini{
+    transform: rotate(-100deg);
+    padding-bottom: 20px;
+    padding-right: 55px;
+  }
+
+  #cancer{
+    transform: rotate(80deg);
+    padding-top: 25px;
+    padding-left: 40px;
+  }
+
+  #leo{
+    transform: rotate(-100deg);
+    padding-bottom: 25px;
+    padding-right: 60px;
+  }
+
+  #virgo{
+    transform: rotate(-110deg);
+    padding-bottom: 25px;
+    padding-right: 60px;
+  }
