@@ -1,262 +1,323 @@
 p{
-    font-family: 'Indie Flower', cursive;
-    font-weight: 700;
-    font-size: 18px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 700;
+  font-size: 18px;
 }
 .roundOne {
-    position: relative;
-    margin-left: 35%;
-    margin-top: 10%;
-    width: 600px;
-    height: 600px;
-    border-radius: 50%;
-    background-color: #fff;
-    border: 8px solid #292929;
-  }
+  position: relative;
+  margin-left: 35%;
+  margin-top: 10%;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #292929;
+}
+.dottedRound{
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  width: 605px;
+  height: 605px;
+  border-radius: 50%;
+  border: 5px dotted #292929;
+}
+.planeRound{
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  width: 615px;
+  height: 615px;
+  border-radius: 50%;
+  border: 2px solid #292929;
+}
 
-  .roundTwo {
-    position: absolute;
-    margin-left: 50%;
-    margin-top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #ffcdab;
-    z-index: -100;
-  }
+.roundTwo {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffcdab;
+  z-index: -100;
+}
 
-  .roundThree {
-    position: absolute;
-    margin-left: 50%;
-    margin-top: 50%;
-    transform: translate(-50%, -50%);
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    z-index: 1;
-    background-color: #fff4e3;
-    border: 5px solid #292929;
-  }
+.roundThree {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  z-index: 1;
+  background-color: #fff4e3;
+  border: 5px solid #292929;
+}
+.roundFour {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: 1;
+  background-color: #f4f2f8;
+  border: 5px solid #b3aeae;
+}
 
-  .roundTwo img {
-    width: 50px;
-    height: 50px;
-  }
+.roundTwo img {
+  width: 50px;
+  height: 50px;
+}
 
-  .symbolImg {
-    float: left;
-  }
+.symbolImg {
+  float: left;
+}
 
-  .symbolText {
-    float: left;
-    padding-left: 50px;
-  }
+.symbolText {
+  float: left;
+  padding-left: 20px;
+}
+.symbolText a{
+text-decoration: none;
+color: #292929;
+}
 
-  .lineOne {
-   z-index: -9999999;
-    position: absolute;
-    margin-left: 50%;
-    margin-top: 50%;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(180deg);
-  }
+.lineOne {
+ z-index: -9999999;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50%;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(180deg);
+}
 
-  .lineTwo {
-    position: absolute;
-    margin-left: 35px;
-    margin-top: -16px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;;
-    transform: rotate(154deg);
-  }
+.lineTwo {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: -16px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;;
+  transform: rotate(154deg);
+}
 
-  .lineThree {
-    position: absolute;
-    margin-left: -14px;
-    margin-top: -72px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;;
-    transform: rotate(125deg);
-  }
+.lineThree {
+  position: absolute;
+  margin-left: -14px;
+  margin-top: -72px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;;
+  transform: rotate(125deg);
+}
 
-  .lineFour {
-    position: absolute;
-    margin-left: -100px;
-    margin-top: -100px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(90deg);
-  }
+.lineFour {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -100px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(90deg);
+}
 
-  .lineFive {
-    position: absolute;
-    margin-left: -184px;
-    margin-top: -75px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(55deg);
-  }
+.lineFive {
+  position: absolute;
+  margin-left: -184px;
+  margin-top: -75px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(55deg);
+}
 
-  .lineSix {
-    position: absolute;
-    margin-left: -233px;
-    margin-top: -18px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(26deg);
-  }
+.lineSix {
+  position: absolute;
+  margin-left: -233px;
+  margin-top: -18px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(26deg);
+}
 
-  .lineSeven {
-    position: absolute;
-    margin-left: -250px;
-    margin-top: 50px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(0deg);
-  }
+.lineSeven {
+  position: absolute;
+  margin-left: -250px;
+  margin-top: 50px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(0deg);
+}
 
-  .lineEight {
-    position: absolute;
-    margin-left: -229px;
-    margin-top: 127px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(-31deg);
-  }
+.lineEight {
+  position: absolute;
+  margin-left: -229px;
+  margin-top: 127px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(-31deg);
+}
 
-  .lineNine {
-    position: absolute;
-    margin-left: -175px;
-    margin-top: 179px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(-60deg);
-  }
+.lineNine {
+  position: absolute;
+  margin-left: -175px;
+  margin-top: 179px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(-60deg);
+}
 
-  .lineTen {
-    position: absolute;
-    margin-left: -100px;
-    margin-top: 199px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(270deg);
-  }
+.lineTen {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 199px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(270deg);
+}
 
-  .lineEleven {
-    position: absolute;
-    margin-left: -34px;
-    margin-top: 184px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(244deg);
-  }
+.lineEleven {
+  position: absolute;
+  margin-left: -34px;
+  margin-top: 184px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(244deg);
+}
 
-  .lineTwelve {
-    position: absolute;
-    margin-left: 29px;
-    margin-top: 125px;
-    width: 300px;
-    height: 3px;
-    background-color: #ffcdab;
-    transform: rotate(211deg);
-  }
+.lineTwelve {
+  position: absolute;
+  margin-left: 29px;
+  margin-top: 125px;
+  width: 300px;
+  height: 3px;
+  background-color: #ffcdab;
+  transform: rotate(211deg);
+}
 
-  .lineThree .symbolText,
-  .lineTwo .symbolText,
-  .lineOne .symbolText,
-  .lineFour .symbolText,
-  .lineTwelve .symbolText,
-  .lineEleven .symbolText{
-    transform: rotate(180deg);
-    margin-left: 50px;
-  }
+.lineOne .symbolText{
+margin-left: 69px;
+transform: rotate(176deg);
+}
+.lineTwo .symbolText{
+margin-left: 47px;
+margin-top: 2px;
+transform: rotate(166deg);
+}
+.lineThree .symbolText{
+margin-top: 19px;
+transform: rotate(164deg);
+}
+.lineFour .symbolText{
 
-  /* Image Rotate */
+transform: rotate(164deg);
+}
+.lineFive .symbolText{
+margin-left: -33px;
 
-  #libra{
-    transform: rotate(175deg);
-    padding-bottom: 35px;
-    padding-right: 15px;
-  }
+}
+.lineSeven .symbolText{
+transform: rotate(-16deg);
+margin-top: 17px;
+}
+.lineEleven .symbolText{
+  margin-left: 20px;
+  transform: rotate(164deg);
+}
+.lineTwelve .symbolText{
+  margin-left: 25px;
+  transform: rotate(155deg);
+}
 
-  #scorpio{
-    transform: rotate(-10deg);
-    padding-left: 10px;
-    padding-top: 40px;
-  }
 
-  #sagittarius{
-    transform: rotate(250deg);
-    padding-right: 50px;
-    padding-bottom: 30px;
-  }
 
-  #capricorn{
-    transform: rotate(255deg);
-    padding-right: 60px;
-    padding-bottom: 30px;
-  }
-  
-  #aquarius{
-    transform: rotate(-55deg);
-    padding-right: 80px;
-  }
+/* Image Rotate */
 
-  #pisces{
-    transform: rotate(-125deg);
-    padding-right: 40px;
-    padding-bottom: 25px;
-  }
+#libra{
+  transform: rotate(175deg);
+  padding-bottom: 35px;
+  padding-right: 15px;
+}
 
-  #aries{
-    transform: rotate(-110deg);
-     padding-right: 50px;
-     padding-bottom: 25px;
-  }
+#scorpio{
+  transform: rotate(-10deg);
+  padding-left: 10px;
+  padding-top: 40px;
+}
 
-  #taurus{
-    transform: rotate(-105deg);
-    padding-bottom: 15px;
-    padding-right: 50px;
-  }
+#sagittarius{
+  transform: rotate(250deg);
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
 
-  #gemini{
-    transform: rotate(-100deg);
-    padding-bottom: 20px;
-    padding-right: 55px;
-  }
+#capricorn{
+  transform: rotate(255deg);
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
 
-  #cancer{
-    transform: rotate(80deg);
-    padding-top: 25px;
-    padding-left: 40px;
-  }
+#aquarius{
+  transform: rotate(-55deg);
+  padding-right: 80px;
+}
 
-  #leo{
-    transform: rotate(-100deg);
-    padding-bottom: 25px;
-    padding-right: 60px;
-  }
+#pisces{
+  transform: rotate(-125deg);
+  padding-right: 40px;
+  padding-bottom: 25px;
+}
 
-  #virgo{
-    transform: rotate(-110deg);
-    padding-bottom: 25px;
-    padding-right: 60px;
-  }
+#aries{
+  transform: rotate(-110deg);
+   padding-right: 50px;
+   padding-bottom: 25px;
+}
 
-  /* Hover Effect */
+#taurus{
+  transform: rotate(-105deg);
+  padding-bottom: 15px;
+  padding-right: 50px;
+}
 
- 
+#gemini{
+  transform: rotate(-100deg);
+  padding-bottom: 20px;
+  padding-right: 55px;
+}
+
+#cancer{
+  transform: rotate(80deg);
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+#leo{
+  transform: rotate(-100deg);
+  padding-bottom: 25px;
+  padding-right: 60px;
+}
+
+#virgo{
+  transform: rotate(-110deg);
+  padding-bottom: 25px;
+  padding-right: 60px;
+}
+
+/* Hover Effect */
+
